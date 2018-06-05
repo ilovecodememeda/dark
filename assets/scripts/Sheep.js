@@ -56,6 +56,7 @@ var Sheep = cc.Class({
         State: State
     },
     init () {
+        cc.log('初始化 角色精灵');
         //-- 当前播放动画组件
         this.anim = this.getComponent(cc.Animation);
         //-- 当前速度
